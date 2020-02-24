@@ -1,0 +1,56 @@
+1
+
+cd /
+ls /etc/
+ls /proc/
+ls /home/
+
+2
+
+man cat
+
+cat > file1.txt
+q
+w
+e
+^c
+cat > file2.txt
+r
+t
+y
+^c
+cat file1.txt file2.txt > file3.txt
+cat file3.txt
+mv file3.txt renamefile.txt
+
+
+3
+
+mkdir folder
+touch file3.txt
+touch file4.txt
+touch file5.txt
+
+mv file*.txt folder
+rm renamefile.txt
+rm -R folder
+
+
+4
+
+cd /home/alex
+find .* | wc -l
+792
+
+5
+
+
+cat /etc/* 2>/home/alex/err.txt
+wc -l /home/alex/err.txt
+127
+
+6
+
+ping google.com
+ps aux | grep ping
+kill 26839

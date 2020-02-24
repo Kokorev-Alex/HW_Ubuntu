@@ -1,0 +1,17 @@
+ 3
+sudo mkdir /media/alex/additions
+sudo mount dev/sr0 /media/alex/additions
+sudo apt-get udate
+sudo apt-get install gcc make perl
+Y
+cd / media/alex/additions/
+sudo ./autorun.sh
+sduo reboot
+
+5
+
+sudo apt-get install openssh-server
+Y
+man ufw
+sudo systemctl strart sshd
+sduo ufw allow 22

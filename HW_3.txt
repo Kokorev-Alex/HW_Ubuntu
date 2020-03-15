@@ -1,0 +1,18 @@
+1 
+
+cd /home/alex
+cat > file1
+qwerty
+^c
+cat  file1 > file2
+ln -s file1 file4
+ln file1 file4
+ls -lai
+rm file1
+(file2 - без изменений
+file3 - выделился цветом
+file4 - без изменений )
+
+
+
+

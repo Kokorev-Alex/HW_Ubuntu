@@ -12,7 +12,32 @@ rm file1
 (file2 - без изменений
 file3 - выделился цветом
 file4 - без изменений )
+cat file2 ( без изменений)
+cat file3 (cat : file3 : no such file or directory)
+cat file4( без изменений)
 
+2
 
+mv file2 file22
+mv file3 file33
+mv file4 fille44
+ln -s file22 file55
+mkdir links
+mv file33 ./links/
+mv file44 ./links/
+mv file55 ./links/
 
+3
+
+touch file1
+touch file2
+chmod 664 file1
+chmod 600 file2
+chmod o-r file2
+chmod g-rw file2
+
+4
+sudo su
+useradd -s /bin/bash newuser 
+usermod -aG sudo newuser
 
